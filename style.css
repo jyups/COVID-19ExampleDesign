@@ -1,0 +1,96 @@
+body{
+    height: 1000px;
+    overflow: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.bg{
+    background-size: 100vw auto;
+    background: no-repeat fixed center;
+    position: fixed;
+    margin-left:0;
+    margin-top:0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Text {
+    max-width: 950px;
+    position: absolute;
+    text-align: center;
+}
+
+.Text h1{
+    color: #58595B;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 12px;
+}
+
+.Text h2 {
+    color: #231F20;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: cardo, serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 5px;
+}
+
+.Text h3{
+    color: #58595B;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: proxima-nova, sans-serif;
+    font-size: 17px;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+
+.Alberta{
+    min-width: 399px;
+    min-height: 649px;
+    position: fixed;
+    left: 40%;
+}
+
+.Graph{
+    min-width: 1658px;
+    min-height: 845px;
+    position: fixed;
+    left: 7%;
+}
+
+
+#info{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 20px;
+    z-index: 9999;
+}
+
+#Flattening {width: 100%; height: 100%; position: fixed;}
+#Flattening div {overflow:hidden; position:absolute;}
+#Flattening .bg {background-color: #F1F2F2}
+#Flattening .Text{
+    z-index: 10;
+}
+
+#Flattening .Alberta{
+    background-image: url("Asset 3.svg");
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#Flattening .Graph{
+    background-image: url("Screenshot_1.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+}
