@@ -1,5 +1,5 @@
 body{
-    height: 1000px;
+    height: 1100px;
     overflow: auto;
     margin-top: 0px;
     margin-left: 0px;
@@ -27,7 +27,7 @@ body{
     background-color: rgba(0, 0, 0, 0);
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 70px;
     margin-bottom: 12px;
 }
@@ -46,10 +46,21 @@ body{
     color: #58595B;
     background-color: rgba(0, 0, 0, 0);
     font-family: proxima-nova, sans-serif;
+    font-variant: small-caps;
     font-size: 17px;
     line-height: 38px;
     margin-bottom: 12px;
 }
+
+.Text h3{
+    color: #58595B;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: proxima-nova, sans-serif;
+    font-size: 17px;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+
 
 .Alberta{
     min-width: 399px;
