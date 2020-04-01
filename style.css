@@ -46,16 +46,18 @@ body{
     color: #58595B;
     background-color: rgba(0, 0, 0, 0);
     font-family: proxima-nova, sans-serif;
-    font-variant: small-caps;
+    font-weight: 400;
     font-size: 17px;
     line-height: 38px;
     margin-bottom: 12px;
 }
 
-.Text h3{
+.Text h4{
     color: #58595B;
     background-color: rgba(0, 0, 0, 0);
     font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
     font-size: 17px;
     line-height: 38px;
     margin-bottom: 12px;
