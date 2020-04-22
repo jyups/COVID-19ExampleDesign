@@ -1,0 +1,157 @@
+body{
+    height: 1100px;
+    overflow: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.bg{
+    background-size: 100vw auto;
+    background: no-repeat fixed center;
+    position: fixed;
+    margin-left:0;
+    margin-top:0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Rectangle{
+    height: 856px;
+    width: 100%;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+
+.CaseLine {
+    top:76%;
+    height: 100%;
+    width: 100%;
+}
+
+.ONHead {
+    left: 155px;
+    top: 68%;
+    height: 100%;
+    width: 100%;
+}
+
+.ONGown{
+    left: 75px;
+    top: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.BCHead{
+    left: 629px;
+    top: 68%;
+    height: 100%;
+    width: 100%;
+}
+
+.BCGown{
+    left: 550px;
+    top: 14%;
+    height: 100%;
+    width: 100%;
+}
+
+.QCHead{
+    left: 1079px;
+    top: 68%;
+    height: 100%;
+    width: 100%;
+}
+
+.QCGown{
+    left: 1000px;
+    top: 33%;
+    height: 100%;
+    width: 100%;
+}
+
+.ABHead{
+    left: 1530px;
+    top: 68%;
+    height: 100%;
+    width: 100%;
+}
+
+.ABGown{
+    left: 1450px;
+    top: 44%;
+    height: 100%;
+    width: 100%;
+}
+
+#info{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 20px;
+    z-index: 9999;
+}
+
+#Page {width: 100%; height: 100%; position: fixed;}
+#Page div {overflow:hidden; position:absolute;}
+#Page .bg {background-color: #FFFFFF}
+#Page .Text{
+    z-index: 10;
+}
+
+#Page .CaseLine{
+    background-image: url("../SkrollrGown/1x/1000caseline.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+#Page .ONHead{
+    background-image: url("../SkrollrGown/1x/ON.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#Page .ONGown{
+    background-image: url("../SkrollrGown/1x/ONe2.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#Page .BCHead{
+     background-image: url("../SkrollrGown/1x/BC.png");
+     background-repeat: no-repeat;
+     z-index: 2;
+}
+
+#Page .BCGown{
+    background-image: url("../SkrollrGown/1x/BCe2.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#Page .QCHead{
+    background-image: url("../SkrollrGown/1x/QC.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#Page .QCGown{
+    background-image: url("../SkrollrGown/1x/QCe2.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#Page .ABHead{
+    background-image: url("../SkrollrGown/1x/AB.png");
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#Page .ABGown{
+    background-image: url("../SkrollrGown/1x/ABe2.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}

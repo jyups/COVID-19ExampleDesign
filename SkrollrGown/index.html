@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID-19 Storyboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kca6xwz.css">
+</head>
+<body>
+<main>
+    <div id="info">0</div>
+    <section id="Page"
+        data-0="opacity:1"
+             data-1000="opacity:1"
+    >
+        <div class="bg">
+            <div class="Rectangle"
+                 data-0="opacity:1;top: 0%"
+                 data-1000="top:-80%"
+            >
+            </div>
+
+            <div class="CaseLine"
+                data-0="opacity:1"
+            ></div>
+
+            <div class="ONHead"
+                 data-0="opacity:1; top:68%"
+                   data-697="opacity:1; top:12.24%"
+                 data-925="opacity:1"
+                 data-926="opacity:0"
+            >
+            </div>
+
+            <div class="ONGown"
+                 data-0="top:10%"
+                 data-950="top:10%"
+                 data-1000="top:4.5%"
+            >
+            </div>
+
+            <div class="BCHead"
+                data-0="opacity:1; top:68%"
+                 data-645="opacity:1; top:16.4%"
+                 data-899="opacity:1"
+                 data-900="opacity:0"
+
+            >
+            </div>
+
+            <div class="BCGown"
+                data-0="top:14%"
+                 data-900="top:14%"
+                 data-980="top:5%"
+                 data-1000="top:3.1%"
+            >
+            </div>
+
+            <div class="QCHead"
+                data-0="opacity:1; top:68%"
+                 data-411="opacity:1; top:35.12%"
+                 data-699="opacity:1"
+                 data-700="opacity:0"
+            >
+            </div>
+
+            <div class="QCGown"
+                data-0="top:33%"
+            >
+            </div>
+
+            <div class="ABHead"
+                 data-0="opacity:1; top:68%"
+                 data-269="opacity:1; top: 46.48%"
+                 data-529="opacity:1"
+                 data-530="opacity:0"
+            >
+            </div>
+
+            <div class="ABGown"
+                 data-0="top:44%"
+                 data-269="top:44%"
+                 data-517="top:44%"
+                 data-550="top:40%"
+                 data-620="top:34%"
+            >
+            </div>
+        </div>
+    </section>
+
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script type="text/javascript">
+    var s = skrollr.init({
+        render: function(data) {
+            //Log the current scroll position.
+            $('#info').text(data.curTop);
+            forceHeight: false
+        }
+    });
+</script>
+</body>
+</html>

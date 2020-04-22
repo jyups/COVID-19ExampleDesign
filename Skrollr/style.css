@@ -97,13 +97,13 @@ body{
 }
 
 #Flattening .Alberta{
-    background-image: url("Asset 3.svg");
+    background-image: url("../Skrollr/Asset 3.svg");
     background-repeat: no-repeat;
     z-index: 2;
 }
 
 #Flattening .Graph{
-    background-image: url("Screenshot_1.png");
+    background-image: url("../Skrollr/Screenshot_1.png");
     background-repeat: no-repeat;
     z-index: 2;
 }
