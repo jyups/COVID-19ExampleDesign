@@ -17,7 +17,7 @@ body{
 }
 
 .Rectangle{
-    height: 853px;
+    height: 852px;
     width: 100%;
     z-index: 2;
     background-color: #FFFFFF;
@@ -30,7 +30,7 @@ body{
 }
 
 .ONHead {
-    left: 155px;
+    left: 154px;
     top: 68%;
     height: 100%;
     width: 100%;
