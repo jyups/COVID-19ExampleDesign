@@ -109,7 +109,7 @@ body{
 }
 
 #Page .ONHead{
-    background-image: url("../SkrollrGown/1x/ON.png");
+    background-image: url("../SkrollrGown/1x/Asset 17.png");
     background-repeat: no-repeat;
     z-index: 2;
 }
@@ -121,7 +121,7 @@ body{
 }
 
 #Page .BCHead{
-     background-image: url("../SkrollrGown/1x/BC.png");
+     background-image: url("../SkrollrGown/1x/Asset 16.png");
      background-repeat: no-repeat;
      z-index: 2;
 }
@@ -133,7 +133,7 @@ body{
 }
 
 #Page .QCHead{
-    background-image: url("../SkrollrGown/1x/QC.png");
+    background-image: url("../SkrollrGown/1x/Asset 15.png");
     background-repeat: no-repeat;
     z-index: 2;
 }
@@ -145,7 +145,7 @@ body{
 }
 
 #Page .ABHead{
-    background-image: url("../SkrollrGown/1x/AB.png");
+    background-image: url("../SkrollrGown/1x/Asset 14.png");
     background-repeat: no-repeat;
     z-index: 2;
 }
